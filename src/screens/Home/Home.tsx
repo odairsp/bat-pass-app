@@ -5,6 +5,7 @@ import { View, Text, Button } from "react-native";
 import styles from "./Style";
 import { BatLogo } from "../../components/BatLogo/BatLogo";
 import { BatTextImput } from "../../components/BatTextImput/BatTextImput";
+import { BatButton } from "../../components/BatButton/BatButton";
 
 export default function Home() {
   return (
@@ -19,7 +20,7 @@ export default function Home() {
       </View>
       
       <View>
-        
+        <BatButton/>
       </View>
       <StatusBar style="light" />
 
