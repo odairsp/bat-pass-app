@@ -10,19 +10,16 @@ import { BatButton } from "../../components/BatButton/BatButton";
 export default function Home() {
   return (
     <View style={styles.appContainer}>
+      <StatusBar style="light" />
 
       <View style={styles.logoContainer}>
         <BatLogo />
       </View>
 
       <View style={styles.inputContainer}>
-        <BatTextImput/>
+        <BatButton />
       </View>
-      
-      <View>
-        <BatButton/>
-      </View>
-      <StatusBar style="light" />
+
 
     </View>
 

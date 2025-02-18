@@ -1,14 +1,21 @@
 import React from 'react';
-import {TextInput } from 'react-native';
+import { TextInput } from 'react-native';
 
 import { styles } from './BatTextImputStyles';
 
-export function BatTextImput() {
-    return (
-            <TextInput 
+interface BatTextImputProps {
+   pass: string;
+
+}
+
+export function BatTextImput(props: BatTextImputProps) {
+        return (
+        <TextInput
+            showSoftInputOnFocus={false}
             style={styles.inputer}
             placeholder='pass'
-            />
-       
+            value={props.pass}
+        />
+
     );
 }

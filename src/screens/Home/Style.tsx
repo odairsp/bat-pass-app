@@ -3,14 +3,15 @@ import { StyleSheet} from 'react-native';
 const styles = StyleSheet.create({
     appContainer: {
       flex: 1,
+      flexDirection: 'column',
       backgroundColor: '#333',
       alignItems: 'center',
       justifyContent: 'center',
     },
     logoContainer: {
       flexDirection: 'column',
-      borderBlockColor: 'black',
-      borderWidth: 0,
+      borderColor: '#fff',
+      borderWidth: 1,
       justifyContent: 'center',
       alignSelf: 'center',
       marginBottom: 60,
